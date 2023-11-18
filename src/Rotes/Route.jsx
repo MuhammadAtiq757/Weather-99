@@ -6,7 +6,7 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 
 import Error from "../Pages/Error/Error";
-import TopCourese from "../Pages/Banner/TopCourese";
+import Weather from "../Pages/Weather/Search";
 
 
 
@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
               
                 {
                     path: '/top-coures',
-                    element: <TopCourese></TopCourese>
+                    element: <Weather></Weather>
                 },
               
              

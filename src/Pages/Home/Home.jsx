@@ -1,14 +1,15 @@
+import Search from "../Weather/Search";
+import WeatherForecast from "../Weather/WeatherForecast";
 
 
-import Banner from '../Banner/Banner';
-import Colleges from '../Banner/Banner';
+
 
 
 const Home = () => {
     return (
         <div className="">
-  
-          <Banner></Banner>
+  <Search></Search>
+         <WeatherForecast></WeatherForecast>
          
          
           
